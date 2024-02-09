@@ -1,0 +1,22 @@
+Body {
+	font-family: helvetica;
+	background-color: black;
+}
+
+h1{
+	font-style: bold;
+	font-size: 90px ;
+	color: lightgrey;
+	transition: all 0.3s ease;
+}
+
+h1:hover{
+	color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+}
+
+a{
+	text-decoration: none;
+}
+
+
