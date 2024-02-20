@@ -52,8 +52,8 @@ text-align: left;
 position: absolute;
 top: 40%;
 left: 50%;
-color: white;
 font-size: 40px;
+color: white;
  animation: glow 2s infinite alternate;
  transform: translate(-50%,-50%);
 

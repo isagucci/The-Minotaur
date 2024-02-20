@@ -1,0 +1,98 @@
+ body{
+ 	font-family: 'Helvetica', sans-serif;
+    font-size: 40px;
+    background-color: black;
+ }
+
+ .grid{
+ 	display: grid;
+  grid-template-columns: repeat(15, 1fr); 
+  
+ }
+
+ .l{
+ 	align-items: center;
+ 	text-align: center;
+ 	color: white;
+ }
+
+ .first{
+ 	font-size: 40px;
+ 	align-items: center;
+ 	text-align: left;
+ 	grid-column: 1 / span 5;
+ 	margin-left: 40PX;
+ 	letter-spacing: 78px;
+ 	color: grey;
+
+ }
+
+ .first:hover{
+	color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+}
+ .second{
+ 		font-size: 40px;
+ 	align-items: center;
+ 	text-align: left;
+ 	color: white;
+ 	grid-column: 1 / span 6;
+ 	  grid-row: 3;
+ 	margin-left: 40PX;
+ 	letter-spacing: 78px;
+ 	color: grey;
+
+ }
+
+
+
+ a{
+ 	text-decoration: none;
+ 	color: grey;
+ }
+
+ a:hover{
+	color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+}
+
+.third{
+ 		font-size: 40px;
+ 	align-items: center;
+ 	text-align: left;
+ 	color: white;
+ 	grid-column: 1 / span 7;
+ 	  grid-row: 5;
+ 	margin-left: 40PX;
+ 	letter-spacing: 78px;
+ 	color: grey;
+
+ }
+
+ .third:hover{
+	color: white;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+}
+
+
+
+.last{
+ 		font-size: 40px;
+ 	align-items: center;
+ 	text-align: left;
+ 	color: white;
+ 	grid-column: 1 / span 14;
+ 	  grid-row: 7;
+ 	margin-left: 40PX;
+ 	letter-spacing: 78px;
+ 	color: grey;
+
+ }
+
+ .last:hover{
+	color: white;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+}
+
+
+ 
