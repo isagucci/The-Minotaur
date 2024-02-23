@@ -3,7 +3,7 @@ function checkPassword() {
 
   var enteredPassword = document.getElementById("passwordInput").value;
 
-  var correctPassword = "The Minotaur";
+  var correctPassword = "theminotaur";
 
   if (enteredPassword === correctPassword) {
 

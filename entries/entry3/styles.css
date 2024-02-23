@@ -1,0 +1,28 @@
+body{
+	background-color: black;
+	font-family: helvetica;
+	color: white;
+}
+
+.text-container{
+	justify-content: center;
+}
+.text {
+color: white;   
+cursor: pointer;
+
+  
+}
+span:hover{
+	filter: blur(0);
+}
+
+span{
+filter: blur(20px);
+transition: filter 0.1s ease;
+}
+
+h1{
+	font-size: 40px;
+	margin-top: 90px;
+}
