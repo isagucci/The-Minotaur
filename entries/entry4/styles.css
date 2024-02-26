@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    font-family: helvetica;
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header.head {
+    position: fixed;
+    top: 0;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    width: 100%;
+    
+}
+
+h1 {
+    font-size: 30px;
+    margin: 10px; 
+}
+
+
+header.head .m {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header.head a:nth-child(2) {
+    margin-right: 20px;
+}
+
+
+.lover{
+	position: absolute;
+   right: 50px;
+}
