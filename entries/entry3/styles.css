@@ -26,9 +26,10 @@ transition: filter 0.1s ease;
 text-align: center;
 }
 
-h2{
+p{
 	font-size: 47px;
 	margin-top: 90px;
+    text-align: justify;
 }
 a {
     text-decoration: none;
