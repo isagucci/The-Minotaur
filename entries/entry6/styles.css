@@ -1,0 +1,61 @@
+body {
+   background-image: linear-gradient(to top,black,salmon);
+    font-family: helvetica;
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+header.head {
+    position: fixed;
+    top: 0;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    width: 100%;
+    
+}
+
+
+header.head .m {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header.head a:nth-child(2) {
+    margin-right: 20px;
+}
+
+
+.lost{
+    position: absolute;
+   right: 50px;
+}
+
+h1{
+  font-size: 30px;
+    margin: 10px;   
+}
+
+
+p{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 12%;
+    margin-right:12%;
+    line-height: 2.5em;
+  font-family: monospace;
+
+}
+
+.content p{
+    position: relative;
+    margin-top: 30%;
+    margin-bottom: 60vh;
+}
