@@ -67,3 +67,42 @@ color: white;
       text-shadow: 0 0 20px white;
     }
   }
+
+  @media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Adjust font size for better readability on smaller screens */
+    }
+
+    .content {
+        height: auto; /* Adjust height to fit content */
+    }
+
+    #passwordInput {
+        width: 80%; /* Adjust width for better fit */
+        height: 40px; /* Adjust height for better fit */
+        top: 70%; /* Adjust positioning */
+        left: 50%; /* Adjust positioning */
+        transform: translate(-50%, -50%);
+    }
+
+    button {
+        font-size: 12px; /* Adjust font size */
+        top: 80%; /* Adjust positioning */
+        left: 50%; /* Adjust positioning */
+        transform: translate(-50%, -50%);
+    }
+
+    h3 {
+        font-size: 16px; /* Adjust font size */
+        top: 45%; /* Adjust positioning */
+        left: 50%; /* Adjust positioning */
+        transform: translate(-50%, -50%);
+    }
+
+    .M {
+        font-size: 30px; /* Adjust font size */
+        top: 35%; /* Adjust positioning */
+        left: 50%; /* Adjust positioning */
+        transform: translate(-50%, -50%);
+    }
+}

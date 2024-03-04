@@ -7,11 +7,12 @@ Body {
 .text {
 	position:absolute;
 	justify-content: center;
-	overflow: hidden; /* Ensures text overflow is hidden */
-  	white-space: nowrap; /* Prevents wrapping */
+	overflow: hidden; 
+  	white-space: nowrap; 
   	animation: typing 3s steps(30) forwards;
   	top: 200px;
 }
+
 
 
 @keyframes typing {
@@ -40,13 +41,13 @@ a{
 }
 
 .link{
-	position:absolute;
-	top: 500px;
+	position:relative;
+	top: 60vh;
 	margin: auto;
 	font-style: bold;
 	font-size: 15px ;
 	color: white;
-	left: 600px;
+	left: 4vw;
 	transition: all 0.3s ease;
     color: grey;
     animation: fadeInAnimation 3s ease-in forwards;
@@ -71,5 +72,34 @@ a{
 }
 
 
+@media screen and (max-width: 768px){
 
+.text {
+	position:absolute;
+	justify-content: center;
+	overflow: hidden; 
+  	white-space: nowrap; 
+  	animation: typing 3s steps(30) forwards;
+  	top: 800px;
+}
+
+h1{
+	font-style: bold;
+	font-size: 18px ;
+	color: white;
+	text-align: left;
+	margin-left: 80px
+	
+}
+.link{
+	position:absolute;
+	top: 1200px;
+	margin: auto;
+	font-style: bold;
+	font-size: 15px ;
+	color: white;
+	left: 450px;
+}
+
+}
 

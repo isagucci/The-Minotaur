@@ -10,7 +10,6 @@ function checkPassword() {
     window.location.href = "../entry2/index.html";
   
   } else {
-    // Display an error message if the password is incorrect
     alert("Incorrect password! Hint: To find the answer you have to look at the SOURCE");
   }
 }
