@@ -13,8 +13,6 @@ Body {
   	top: 200px;
 }
 
-
-
 @keyframes typing {
   from {
     width: 0;
@@ -23,8 +21,6 @@ Body {
     width: 100%;
   }
 }
-
-
 
 
 h1{
@@ -52,11 +48,9 @@ a{
     color: grey;
     animation: fadeInAnimation 3s ease-in forwards;
     opacity: 0;
-    animation-delay: 2s
-
-  
-
+    animation-delay: 2s;
 }
+
 @keyframes fadeInAnimation {
         from {
             opacity: 0; 
@@ -101,5 +95,5 @@ h1{
 	left: 450px;
 }
 
-}
+
 
